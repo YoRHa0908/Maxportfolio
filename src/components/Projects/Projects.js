@@ -4,10 +4,11 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import WordPress_TypeScipt from "../../Assets/Projects/WordPress_TypeScipt.png";
-import nextjs_nestJs_AI from "../../Assets/Projects/nextjs_nestJs_AI.png";
+import NetGuardXAI_nids from "../../Assets/Projects/NetGuardXAI_nids.png";
+import typescript from "../../Assets/Projects/typescript.png";
 import Figma from "../../Assets/Projects/Figma.png";
-import NextJs_NodeJs_AI from "../../Assets/Projects/NextJs_NodeJs_AI.png";
+import realtime_chat_app from "../../Assets/Projects/realtime-chat-app.png";
+import Feedback_Widget from "../../Assets/Projects/Feedback_Widget.png";
 
 function Projects() {
   return (
@@ -23,45 +24,41 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={nextjs_nestJs_AI}
+              imgPath={typescript}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="NLW"
+              description="NLW Return project: feedback app with screenshot capture. Built with React.js, TypeScript, Tailwind CSS, Headless UI, focused on accessibility and testing (Jest). Backend with Node.js and Prisma."
+              ghLink="https://github.com/FBlinker/feedback-backend-nodejs-ts"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={NextJs_NodeJs_AI}
+              imgPath={Feedback_Widget}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Feedback-Widget"
+              description="The project is called Feedback Widget. It is a tool where the user can leave feedback in case of a problem, an idea or other, this tool allows the user to describe his problem/idea/other along with the screenshot functionality."
+              ghLink="https://github.com/FBlinker/Feedback-Widget"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={WordPress_TypeScipt}
+              imgPath={NetGuardXAI_nids}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="NetGuardXAI_nids"
+              description="A full-stack application for network intrusion detection using Explainable AI (XAI). The project combines a Flask backend for processing network features and generating XAI visualizations with a Next.js frontend for user interaction and result display. Deployment Links and Screenshots"
+              ghLink="https://github.com/FBlinker/NetGuardXAI_nids"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={realtime_chat_app}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Chat Application"
+              description="This project is a full-fledged realtime messaging application with a user interface inspired by WhatsApp. It enables users to exchange messages individually or within groups."
+              ghLink="https://github.com/FBlinker/chat-app"
             />
           </Col>
 
