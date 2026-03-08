@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import {User} from "../../config";
 
 function AboutCard() {
   return (
@@ -8,13 +9,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Oleksii Shcherbyna</span>{" "}
-            from <span className="purple">Viktorivka, Ukraine </span>.
+            Hi everyone! I’m <span className="purple">{User.userName}</span>.
             <br />
             I’m currently working as a{" "}
-            <span className="purple">Senior Software Developer</span>
+            <span className="purple">{User.Title}</span>
             <br />
-             I thrive in fast-paced teams, deliver robust solutions, and enjoy mentoring engineers to raise the bar.
+             {User.bio}
           </p>
         </blockquote>
       </Card.Body>
