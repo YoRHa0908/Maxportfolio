@@ -18,7 +18,7 @@ function Github() {
         username="FBlinker"
         blockSize={40}
         blockMargin={10}
-        color="#c084f5"
+        color="#53f53e"
         fontSize={20}
       />
     </Row>

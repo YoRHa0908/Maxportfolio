@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="NLW"
               description="NLW Return project: feedback app with screenshot capture. Built with React.js, TypeScript, Tailwind CSS, Headless UI, focused on accessibility and testing (Jest). Backend with Node.js and Prisma."
-              ghLink="https://github.com/FBlinker/feedback-backend-nodejs-ts"
+              ghLink="https://github.com/YoRHa0908/feedback-backend-nodejs-ts"
             />
           </Col>
 
@@ -37,7 +37,7 @@ function Projects() {
               isBlog={false}
               title="Feedback-Widget"
               description="The project is called Feedback Widget. It is a tool where the user can leave feedback in case of a problem, an idea or other, this tool allows the user to describe his problem/idea/other along with the screenshot functionality."
-              ghLink="https://github.com/FBlinker/Feedback-Widget"
+              ghLink="https://github.com/YoRHa0908/Feedback-Widget"
             />
           </Col>
 
@@ -47,7 +47,7 @@ function Projects() {
               isBlog={false}
               title="NetGuardXAI_nids"
               description="A full-stack application for network intrusion detection using Explainable AI (XAI). The project combines a Flask backend for processing network features and generating XAI visualizations with a Next.js frontend for user interaction and result display. Deployment Links and Screenshots"
-              ghLink="https://github.com/FBlinker/NetGuardXAI_nids"
+              ghLink="https://github.com/YoRHa0908/NetGuardXAI_nids"
             />
           </Col>
 
@@ -57,7 +57,7 @@ function Projects() {
               isBlog={false}
               title="Chat Application"
               description="This project is a full-fledged realtime messaging application with a user interface inspired by WhatsApp. It enables users to exchange messages individually or within groups."
-              ghLink="https://github.com/FBlinker/chat-app"
+              ghLink="https://github.com/YoRHa0908/chat-app"
             />
           </Col>
 
@@ -67,7 +67,7 @@ function Projects() {
               isBlog={false}
               title="Ai For Social Good"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/FBlinker/AI_For_Social_Good"
+              ghLink="https://github.com/YoRHa0908/AI_For_Social_Good"
             />
           </Col>
 
@@ -78,7 +78,7 @@ function Projects() {
               title="Face Recognition and Emotion Detection"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/FBlinker/Face_And_Emotion_Detection"
+              ghLink="https://github.com/YoRHa0908/Face_And_Emotion_Detection"
             />
           </Col>
         </Row>
