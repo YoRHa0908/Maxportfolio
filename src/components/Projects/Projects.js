@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import NetGuardXAI_nids from "../../Assets/Projects/NetGuardXAI_nids.png";
 import typescript from "../../Assets/Projects/typescript.png";
